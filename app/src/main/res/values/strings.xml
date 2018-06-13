@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_room2">Room2</string>
+    <string name="title_activity_room3">Room3</string>
+    <string name="title_activity_room4">Room4</string>
+    <string name="title_activity_room5">Room5</string>
+    <string name="title_activity_room6">Room6</string>
+    <string name="title_activity_room7">Room7</string>
+    <string name="title_activity_room8">Room8</string>
+    <string name="title_activity_room9">Room9</string>
+    <string name="title_activity_room10">Room10</string>
+    <string name="call_button_title">Tap to add elements</string>
+    <string name="make_an_order">Make an order</string>
+    <string name="dialog_title">Items available in a shop</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+    <string-array name="shopping_item">
+        <item>Light1</item>
+        <item>Light2</item>
+        <item>Light3</item>
+        <item>Light4</item>
+        <item>Light5</item>
+        <item>Fan1</item>
+        <item>Fan2</item>
+        <item>Fan3</item>
+        <item>Fan4</item>
+        <item>Fan5</item>
+    </string-array>
+</resources>

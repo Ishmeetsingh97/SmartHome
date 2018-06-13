@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joban.SmartHome">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.joban.SmartHome.MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room1"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room2"
+            android:label="@string/title_activity_room2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room3"
+            android:label="@string/title_activity_room3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room4"
+            android:label="@string/title_activity_room4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room5"
+            android:label="@string/title_activity_room5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room6"
+            android:label="@string/title_activity_room6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room7"
+            android:label="@string/title_activity_room7"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room8"
+            android:label="@string/title_activity_room8"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room9"
+            android:label="@string/title_activity_room9"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.joban.SmartHome.Rooms.Room10"
+            android:label="@string/title_activity_room10"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
